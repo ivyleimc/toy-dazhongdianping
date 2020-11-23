@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Hiragino Sans GB, Arial,Helvetica, "宋体", sans-serif;
+    background: #f0f0f0;
+}
+  
+a {
+    text-decoration: none;
+}
+
+#root {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.homeHeader__wrapper {
+    max-width: 600px;
+}
