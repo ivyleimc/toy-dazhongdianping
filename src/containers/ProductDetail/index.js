@@ -16,7 +16,7 @@ class ProdutDetail extends Component {
             <div>
                 {detail && shop ?
                     <div>
-                        <Header title='团购详情' onBack={this.handleBack} grey />
+                        <Header title='团购详情' onBack={this.handleBack} />
                         <ProductOverview data={detail} />
                         <ShopInfo shop={detail.shop} total={detail.shopIds.length} />
                         <Detail category={detail.detail.category} products={detail.detail.products} remark={detail.detail.remark} />
